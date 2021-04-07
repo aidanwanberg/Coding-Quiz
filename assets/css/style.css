@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+:root {
+    --primary: white;
+    --secondary: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+#main-menu-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: plum;
+}
+

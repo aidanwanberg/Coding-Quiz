@@ -105,14 +105,30 @@ var quiz = function() {
             answerButton.setAttribute("data-value", currentAnswers[i]);
             document.getElementById("answer-options").appendChild(answerButton);
             
-            // check answer
+            answerButton.onclick = checkAnswer;
 
         }
+
         return
+
     }
     //  end quiz
 }
 
+var checkAnswer = function() {
+
+    if (this.getAttribute("data-value") === quizQuestions[quizQuestionNum].correctAnswer) {
+    
+    }
+
+    else {
+        quizTimeLeft = quizTimeLeft - 10;
+    }
+
+    quizQuestionNum++;
+
+    quiz();
+}
 
 
 

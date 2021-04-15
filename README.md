@@ -16,11 +16,15 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
-Description: 
+Description:
+
+
 
 "Refactored code for existing website, "Horiseon Social Solution Service" to meet accessibility standards, and ensure that people with disabilities can access the website using assistive technologies. In order to improve the codebase for long-term sustainability, I consolidated CSS selectors and properties, followed proper CSS and HTMl semantic structure, and commented throughout the file to help with clarity."
 
 Screenshots:
+
+<img src="./assets/">
 
 URL of Deployed Application: https://aidanwanberg.github.io/Coding-Quiz/
 

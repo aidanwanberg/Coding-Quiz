@@ -18,13 +18,14 @@ THEN I can save my initials and score
 
 Description:
 
-
-
-"Refactored code for existing website, "Horiseon Social Solution Service" to meet accessibility standards, and ensure that people with disabilities can access the website using assistive technologies. In order to improve the codebase for long-term sustainability, I consolidated CSS selectors and properties, followed proper CSS and HTMl semantic structure, and commented throughout the file to help with clarity."
+Created a timed quiz using JavaScript that tests the user's code knowledge with various questions. In order to give users the ability to gauge their progress compared to their peers, localStorage was used to save the high scores of various users.
 
 Screenshots:
 
-<img src="./assets/">
+<img src="./assets/images/screenshot-1.png">
+<img src="./assets/images/screenshot-2.png">
+<img src="./assets/images/screenshot-3.png">
+<img src="./assets/images/screenshot-4.png">
 
 URL of Deployed Application: https://aidanwanberg.github.io/Coding-Quiz/
 
